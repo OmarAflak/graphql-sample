@@ -1,0 +1,29 @@
+{
+  "name": "graphql-server",
+  "version": "1.0.0",
+  "description": "simple graphql server",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.16.3",
+    "express-graphql": "^0.6.12",
+    "graphql": "^0.13.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "nodejs server.js",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/omaraflak/graphql-sample.git"
+  },
+  "keywords": [
+    "graphql"
+  ],
+  "author": "Omar Aflak",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/omaraflak/graphql-sample/issues"
+  },
+  "homepage": "https://github.com/omaraflak/graphql-sample#readme"
+}
